@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>12/3/20 3:20 PM	PnL	Profit/Loss of Trade	5715895020	109923972	-2.07	580.28
+12/3/20 3:35 PM	PnL	Profit/Loss of Trade	5715895020	109924148	0.39	580.67
+12/3/20 5:02 PM	PnL	Profit/Loss of Trade	5715895020	109923797	-0.01	580.66
+12/3/20 6:47 PM	PnL	Profit/Loss of Trade	5715895020	109925222	-10.10	570.56
+12/3/20 6:57 PM	PnL	Profit/Loss of Trade	5715895020	109926094	-9.48	561.08
+12/3/20 7:58 PM	PnL	Profit/Loss of Trade	5715895020	109929705	12.34	573.42
+12/3/20 7:58 PM	PnL	Profit/Loss of Trade	5715895020	109929183	7.20	580.62
+12/3/20 8:06 PM	PnL	Profit/Loss of Trade	5715895020	109930173	-0.63	579.99
+12/3/20 8:12 PM	PnL	Profit/Loss of Trade	5715895020	109930085	-2.48	577.51
+12/3/20 8:12 PM	PnL	Profit/Loss of Trade	5715895020	109930079	-2.48	575.03
+12/3/20 8:19 PM	PnL	Profit/Loss of Trade	5715895020	109930158	-3.92	571.11
+12/3/20 8:37 PM	PnL	Profit/Loss of Trade	5715895020	109930373	-7.42	563.69
+12/3/20 8:37 PM	PnL	Profit/Loss of Trade	5715895020	109930389	-13.60	550.09
+12/3/20 11:37 PM	PnL	Profit/Loss of Trade	5715895020	109932257	3.71	553.80
+12/4/20 12:04 AM	PnL	Profit/Loss of Trade	5715895020	109932439	-1.22	552.58
+12/4/20 10:24 AM	PnL	Profit/Loss of Trade	5715895020	109939690	8.89	561.47
+12/4/20 11:06 AM	PnL	Profit/Loss of Trade	5715895020	109941646	-0.01	561.46
+12/4/20 11:40 AM	PnL	Profit/Loss of Trade	5715895020	109941783	-2.38	559.08
+12/4/20 11:40 AM	PnL	Profit/Loss of Trade	5715895020	109941649	-1.93	557.15
+12/4/20 1:51 PM	PnL	Profit/Loss of Trade	5715895020	109945582	5.94	563.09
+12/4/20 1:55 PM	PnL	Profit/Loss of Trade	5715895020	109947041	0.20	563.29
+12/4/20 2:13 PM	PnL	Profit/Loss of Trade	5715895020	109945769	2.02	565.31
+12/4/20 2:53 PM	PnL	Profit/Loss of Trade	5715895020	109950134	-0.21	565.10
+12/4/20 3:21 PM	PnL	Profit/Loss of Trade	5715895020	109951492	-0.01	565.09
+12/4/20 4:39 PM	PnL	Profit/Loss of Trade	5715895020	109950790	7.41	572.50
+12/4/20 4:47 PM	PnL	Profit/Loss of Trade	5715895020	109948537	13.38	585.88
+12/4/20 5:52 PM	PnL	Profit/Loss of Trade	5715895020	109947040	13.81	599.69
+12/4/20 6:02 PM	PnL	Profit/Loss of Trade	5715895020	109951658	0.77	600.46
+12/4/20 6:59 PM	PnL	Profit/Loss of Trade	5715895020	109955924	-0.83	599.63
+12/4/20 7:03 PM	PnL	Profit/Loss of Trade	5715895020	109955922	-0.38	599.25
+12/4/20 7:27 PM	PnL	Profit/Loss of Trade	5715895020	109955906	-0.78	598.47</value>
+  </data>
+</root>
